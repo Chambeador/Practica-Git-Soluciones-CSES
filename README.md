@@ -1,1 +1,1 @@
-Hola
+Holo esta es un proyecto en grupo para mi curso de git en mis postulacion a la scesi
