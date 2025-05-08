@@ -2,25 +2,29 @@
 using namespace std;
 
 void solve(){
-     int n,k; cin>>n>>k;
-     vector<int> arr(n);
-     int ans = 0;
-     int l = 0, r = n-1;
-     sort(arr.begin(), arr.end());
+     int cantNinos,pesoMax; cin>>cantNinos>>pesoMax;
+     vector<int> arreglo(cantNinos);
+     for(int i = 0; i < cantNinos; i++){
+          cin>>arreglo[i];
+     }
+     int respuesta = 0;
+     int l = 0, r = cantNinos-1;
+     sort(arreglo.begin(), arreglo.end());
      while(l <= r){ 
            if(l == r){
-               ans++; break;
+               respuesta++; break;
            }
-           if(arr[l]+arr[r] > k){
-               ans++;
+           if(arreglo[l]+arreglo[r] > pesoMax){
+               respuesta++;
                r--;
             }else{
-               ans++;
+               respuesta++;
                l++,r--;
             }    
      }
-     cout<<ans<<endl;
+     cout<<respuesta<<endl;
 }
+
 signed main(){
        solve();
 }
