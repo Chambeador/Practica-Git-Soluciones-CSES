@@ -22,7 +22,11 @@ Cada integrante desarrolla su solución en su propia rama y sigue el flujo de tr
 **Solución:** Implementación de dos punteros tras ordenar los pesos para optimizar el uso de góndolas.  
 **Lenguaje:** C++  
 
-[@usuario2](https://github.com/Del-Mai)  
+[@Delia Acosta](https://github.com/Del-Mai)  
+**Problema:** [Increasing](https://cses.fi/problemset/task/1094)   
+**Descripción:** Dado un arreglo de enteros, se quiere transformarlo en uno no decreciente, realizando la mínima cantidad de movimientos posiblesse puede incrementar en 1 cualquier elemento del arreglo.    
+**Solución:** Recorrer el arreglo desde el segundo elemento, si algun elemento es menor que el anterios, incrementa su valor hasta igualarlo, sumamos la cantidad de incrementos realizados y esa suma sera el numero mínimo de movimientos necesarios.   
+**Lenguaje:** C++
 
 [@Adriana Soto](https://github.com/r4ccy)  
 **Problema:** [Repetitions](https://cses.fi/problemset/task/1069)  
