@@ -15,6 +15,8 @@ void solve() {
             current = 1;
         }
     }
+
+    cout << max_count << '\n';
 }
 
 int main() {
