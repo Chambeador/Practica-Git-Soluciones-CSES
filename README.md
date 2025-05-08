@@ -34,8 +34,11 @@ Cada integrante desarrolla su solución en su propia rama y sigue el flujo de tr
 **Solución:** Se recorre la cadena manteniendo un contador que se incrementa si el carácter actual es igual al anterior. Se guarda el valor máximo alcanzado.  
 **Lenguaje:** C++
 
-[@usuario2](https://github.com/TheArrick)  
-
+[@José Ignacio Jaldin Janko](https://github.com/TheArrick)  
+**Problema:** [Minimizing Coins](https://cses.fi/problemset/task/1634)
+**Descripción:** Considera un sistema monetario compuesto por n monedas. Cada moneda tiene un valor entero positivo. Tu tarea es producir una suma de dinero x utilizando las monedas disponibles de tal manera que el número de monedas sea mínimo.
+**Solución:** Utilizando programación dinámica, se busca dividir el problema en partes más pequeñas, para luego juntar el resultado de manera eficiente juntarlas.
+**Lenguaje:** C++
 
 ### Buenas prácticas aplicadas
 
