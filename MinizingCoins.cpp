@@ -12,6 +12,23 @@ using namespace std;
 | ╚═════╝ ╚═╝   ╚═╝        ╚═════╝  ╚═════╝ ╚═════╝ |
 '---------------------------------------------------'
 **/
+int dpesito(int n, vector<int> &coins, vector<int> &dp) {
+    if (n == 0) {
+        return 0;
+    }
+    if (dp[n] != INF) {
+        return dp[n];
+    }
+    dp[n] = 1e9;
+    for (int i = 0; i < coins.size(); i++) {
+
+        if (n - coins[i] >= 0) {
+
+            dp[n] = min(dp[n], dpesito(n - coins[i], coins, dp) + 1);
+        }
+    }
+    return dp[n];
+}
 void solve() {
     int n, x;
     cin >> n >> x;
@@ -20,6 +37,8 @@ void solve() {
     for (int i = 0; i < n; i++) {
         cin >> coins[i];
     }
+    int cont = dpesito(x, coins, dp);
+    cout << (dp[x] == 1e9 ? -1 : dp[x]) << endl;
 }
 
 signed main() {
