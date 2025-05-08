@@ -16,5 +16,11 @@ void solve(){
                     arr[i] = arr[i-1];
                 }
         }
-        
+
     cout<<c<<endl;
+
+signed main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    solve();
+}
