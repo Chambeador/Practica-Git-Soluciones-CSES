@@ -24,7 +24,11 @@ Cada integrante desarrolla su solución en su propia rama y sigue el flujo de tr
 
 [@usuario2](https://github.com/Del-Mai)  
 
-[@usuario2](https://github.com/r4ccy)  
+[@Adriana Soto](https://github.com/r4ccy)  
+**Problema:** [Repetitions](https://cses.fi/problemset/task/1069)  
+**Descripción:** Dado un string de caracteres A, C, G y T (secuencia de ADN), se debe determinar la longitud del segmento más largo formado por repeticiones consecutivas de un mismo carácter.
+**Solución:** Se recorre la cadena manteniendo un contador que se incrementa si el carácter actual es igual al anterior. Se guarda el valor máximo alcanzado.  
+**Lenguaje:** C++
 
 [@usuario2](https://github.com/TheArrick)  
 
