@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define INF 1e8
+#define int long long
 using namespace std;
 
 /**
@@ -40,7 +41,6 @@ void solve() {
     int cont = dpesito(x, coins, dp);
     cout << (dp[x] == 1e9 ? -1 : dp[x]) << endl;
 }
-
 signed main() {
     std::ios::sync_with_stdio(false);
     cin.tie(0);
